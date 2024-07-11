@@ -1,0 +1,7 @@
+- 👋 Hi, I’m Kanishq Singh Negi.
+- 👀 I’m interested in AI applications.
+- 🌱 I’m currently learning web development.
+- 💞️ I’m looking to collaborate on coding projects.
+- 📫 You can reach me at Linkedin and Instagram.
+- 😄 Pronouns: Kantik
+- ⚡ Fun fact: I'm just 18 and doing an intern...
