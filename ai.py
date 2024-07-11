@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
 
         elif 'play music' in query:
-            music_dir = 'C:\\Users\\Asus\\Downloads\\kantik\\Krishna Trance.mp3'
+            music_dir = 'location of your music file...'
             songs = os.startfile(music_dir)
 
         elif 'open calculator' in query:
@@ -115,14 +115,12 @@ if __name__ == "__main__":
             speak(Time)
                 
 
-        elif 'open chatbot' in query:
-            os.startfile('C:\\Users\\Asus\\Desktop\\CHATBOT\\warrivo.py')
-
         elif 'open brave' in query:
             os.startfile('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Brave.lnk')
+            #change loaction according to your pc
         
         elif 'open spotify' in query:
-            os.startfile('C:\\Users\\Asus\\Desktop\\Spotify.lnk')
+            os.startfile('C:\\Users\\Asus\\Desktop\\Spotify.lnk')  #change loaction according to your pc
 
         elif 'open whatsapp' in query:
             webbrowser.open('https://web.whatsapp.com//')
@@ -130,11 +128,11 @@ if __name__ == "__main__":
         elif 'open instagram' in query:
             webbrowser.open('https://www.instagram.com//')
 
-        elif 'email to harry' in query:
+        elif 'email to kanishq' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "harryyourEmail@gmail.com"    
+                to = "kanishqyourEmail@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
@@ -142,10 +140,9 @@ if __name__ == "__main__":
                 speak("Sorry sir. I am not able to send this email")    
 
         elif 'send whatsapp message' in query:
-            pywhatkit.sendwhatmsg("+917024436568","hello",18,3)
+            pywhatkit.sendwhatmsg("+91_______","hello",18,3)  #phone no. to send the message $ also change the time according to you
             print("message sent")
 
         
         elif 'goodbye' in query:
             exit()
-            
