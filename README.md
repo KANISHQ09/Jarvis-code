@@ -4,4 +4,4 @@
 - 💞️ I’m looking to collaborate on coding projects.
 - 📫 You can reach me at Linkedin and Instagram.
 - 😄 Pronouns: Kantik
-- ⚡ Fun fact: I'm just 18 and doing an intern...
+- ⚡ Fun fact: I'm a Weber.
